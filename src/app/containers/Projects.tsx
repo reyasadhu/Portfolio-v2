@@ -6,6 +6,8 @@ import FAInitiative from "../../assets/FAInitiative.png";
 import HoopsPredictor from "../../assets/HoopsPredictor.png";
 import FAOutlets from "../../assets/FAOutlets.png";
 import CycleScan from "../../assets/CycleScan.png";
+import Repeat from "../../assets/repeat.png";
+import Ship from "../../assets/ship.png";
 import Project from "../components/Project";
 
 const Projects = () => {
@@ -62,8 +64,8 @@ const Projects = () => {
         projectLink="https://github.com/reyasadhu/Gradient-Descent-Optimization"
       />
       <Project
-        imageSrc={CycleScan}
-        imageAlt="CycleScan"
+        imageSrc={Repeat}
+        imageAlt="Repeat Purchase"
         projectName="Repeat Purchase Prediction"
         projectDescription="An XGBoost Classifier based model to estimate the likelihood of a customer making a repeat purchase."
         projectLink="https://github.com/reyasadhu/repeat_purchase_prediction"
@@ -76,11 +78,11 @@ const Projects = () => {
         projectLink="https://github.com/reyasadhu/scene_classification"
       />
       <Project
-        imageSrc={CycleScan}
-        imageAlt="CycleScan"
+        imageSrc={Ship}
+        imageAlt="Ship"
         projectName="Ship Detection CNN"
-        projectDescription="An XGBoost Classifier based model to estimate the likelihood of a customer making a repeat purchase."
-        projectLink="An Xception CNN model on augmented images for image recognition"
+        projectDescription="An Xception CNN model on augmented images for image recognition"
+        projectLink="https://github.com/reyasadhu/ship_detection_CNN"
       />
     </>
   );
