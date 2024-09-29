@@ -36,7 +36,13 @@ const Experiences = () => {
       <Experience
         imageSrc={fractal}
         imageAlt="fractal 2022"
-        description={["","I implemented a read-only access mode for fractal&rsquo;s Console for Businesses using React.js, Angular.js, and Java, addressing customer security concerns and improving support processes by 40%. This involved refining data and authentication logic to establish role-based access control with token-based authentication. I integrated backend APIs to validate user permissions in real-time, ensuring secure and streamlined access for users."]}
+        description={["",
+          "• Market Mix Modeling: Developed a Hierarchical Bayesian Regression (HBR) model to analyze KPIs and improve organic search ranks. Collaborated on budget optimization by leveraging insights from the MMM model.",
+          "• Price and Promotion Elasticity: Built a predictive sales model using stepwise linear regression and gradient descent. Developed a price simulator in Power BI to visualize price elasticities.",
+          "• Duplicate Invoice Detection: Created NLP-based fuzzy matching and semantic analysis to detect duplicate invoices, using classifiers and oversampling techniques for improved accuracy.",
+          "• Time Series Forecasting: Developed ARIMA and VAR models to forecast tax compliance, deploying on Databricks and integrating with SQL for real-time use.",
+          "• ML Pipeline for Explainable AI: Developed an Azure-based pipeline using SHAP/LIME for interpretability of black box models, deploying it in Python and PySpark."
+        ]}
         positionName="Data Scientist"
         companyName="fractal"
         location="Bangalore, India"
@@ -47,8 +53,8 @@ const Experiences = () => {
         imageSrc={VCE}
         imageAlt="Vardhan Consulting Engineers"
         description={[
-          "Techno-commercial Analysis of Electric Vehicles",
-          "• Completed a thorough technical analysis of hybrid, plug-in and plug-in hybrid Electric vehicles.",
+          "Techno-commercial Analysis of Electric Vehicles (EVs)",
+          "• Completed a thorough technical analysis of hybrid, plug-in and plug-in hybrid EVs.",
           "• Completed a detailed case study on the empowerment of Electric rickshaws in India."
         ]}
         positionName="Research Intern"

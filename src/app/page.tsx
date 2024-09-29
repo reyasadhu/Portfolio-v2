@@ -88,9 +88,9 @@ export default function Home() {
         time="August 2023 - Present"
         courseDescription={["",
           "• Relevant Coursework: Natural Language Processing, Visual Learning, Computer Vision, GPU Programming, Probability & Statistics for Data Science, Statistical Learning, Parameter Estimation.",
-          "• Gained proficiency to perform robust statistical analysis, and hypothesis testing and apply various machine learning algorithms for predictive modeling and data-driven decision-making.",
-          "• Developed skills to process and analyze visual data, and acquired parallel programming expertise, enhancing computational efficiency for large-scale data processing and machine learning tasks.",
-          "• Gained extensive theoretical knowledge on gradient descent and convex optimization for optimization and Bayesian statistics for probabilistic inference."
+          "• Proficient in statistical analysis, hypothesis testing, and applying machine learning algorithms for predictive modeling.",
+          "• Developed skills in visual data processing and parallel programming for efficient large-scale data processing and ML tasks.",
+          "• Gained strong theoretical knowledge in gradient descent, convex optimization, and Bayesian statistics for probabilistic inference."
         ]}
       />
       <Blog
@@ -106,7 +106,7 @@ export default function Home() {
           "• I have done several projects in classification and regression models, deep learning, and image classification.",
           "• I achieved the second-highest CGPA among a cohort of 60 students majoring in Electrical Engineering."]}
       />
-      <Blog
+      {/* <Blog
         schoolLink="https://medium.com/@juliuscecilia33/building-real-time-typing-indicators-in-java-19e245539794"
         school="Rahara Bhabanath Institution, India"
         imageSrc={WBCHSE}
@@ -115,7 +115,7 @@ export default function Home() {
         degree="Higher Secondary"
         time="2016 - 2017"
         courseDescription={["","Scored 91.6% and was top of my class."]}
-      />
+      /> */}
       {/* <h2 id="Recommendations" className="mt-14 mb-3 text-2xl font-bold">
         Recommendations
       </h2>
