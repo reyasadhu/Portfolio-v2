@@ -45,7 +45,7 @@ const Experiences = () => {
           "• Clinical Trail Pipeline: Developed a POC of a clinical trial pipeline utilizing scispaCy to assess patient attributes for optimal patient selection and cluster formation. Created synthetic clinical data and used CNN for medical image analysis."
         ]}
         positionName="Data Scientist"
-        companyName="fractal"
+        companyName="Fractal Analytics"
         location="Bangalore, India"
         backgroundColor="#F8F8FA"
         dateOfExperience="June 2022 - September 2022"

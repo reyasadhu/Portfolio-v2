@@ -85,7 +85,7 @@ export default function Home() {
         imageAlt="UCSD"
         degree="M.S. in ECE: Machine Learning & Data Science, GPA: 3.5/4"
         school="University of California San Diego"
-        time="August 2023 - Present"
+        time="August 2023 - March 2025"
         courseDescription={["",
           "• Relevant Coursework: Natural Language Processing, Visual Learning, Computer Vision, GPU Programming, Statistical Learning, Parameter Estimation.",
           "• Proficient in statistical analysis, hypothesis testing, and applying machine learning algorithms for predictive modeling.",
