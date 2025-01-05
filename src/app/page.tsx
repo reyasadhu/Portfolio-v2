@@ -83,14 +83,13 @@ export default function Home() {
         backgroundColor="#F8F8FA"
         imageSrc={UCSD}
         imageAlt="UCSD"
-        degree="M.S. in ECE: Machine Learning & Data Science, GPA: 3.71/4"
+        degree="M.S. in ECE: Machine Learning & Data Science, GPA: 3.5/4"
         school="University of California San Diego"
         time="August 2023 - Present"
         courseDescription={["",
-          "• Relevant Coursework: Natural Language Processing, Visual Learning, Computer Vision, GPU Programming, Probability & Statistics for Data Science, Statistical Learning, Parameter Estimation.",
+          "• Relevant Coursework: Natural Language Processing, Visual Learning, Computer Vision, GPU Programming, Statistical Learning, Parameter Estimation.",
           "• Proficient in statistical analysis, hypothesis testing, and applying machine learning algorithms for predictive modeling.",
-          "• Developed skills in visual data processing and parallel programming for efficient large-scale data processing and ML tasks.",
-          "• Gained strong theoretical knowledge in gradient descent, convex optimization, and Bayesian statistics for probabilistic inference."
+          "• Developed skills in visual data processing and parallel programming for efficient large-scale data processing and ML tasks."
         ]}
       />
       <Blog
@@ -128,7 +127,7 @@ export default function Home() {
           onClick={sendEmail}
           className="bg-[#E95278] mb-5 text-white px-5 py-2 rounded-md text-sm font-medium"
         >
-          Email me: reyasadhu7687@gmail.com
+          Email me: rsadhu@ucsd.edu
         </button>
         {/* <button
           onClick={makeCall}

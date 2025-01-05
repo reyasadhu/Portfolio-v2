@@ -12,9 +12,10 @@ const Experiences = () => {
       <Experience
         imageSrc={TikTok}
         imageAlt="TikTok"
-        description={["Estimated Time of Delivery models for end to end logistics for TikTok Shop",
-          "• Developed inference and optimization ETA models in PySpark using real-time features with SQL, Hive and Hadoop.",
-          "• Worked on the entire modeling lifecycle, including feature creation, testing, experimentation, monitoring, and explainability."]}
+        description={["ETA Models for TikTok Shop E-commerce Logistics",
+          "• Implemented new features through statistical analysis of distributions, achieving a 30% reduction in prediction range and simultaneously lowering breach rates from 6% to 4.5%",
+          "• Implemented two phase multi label classification model in Pytorch to predict delivery breaches: initial phase reduces feature space and do a point estimation, followed by a multi-head architecture to estimate errors around the estimate.",
+          "• Developed a hierarchical multi label classification model in tensorflow, incorporating local and global loss."]}
         positionName="Machine Learning Engineer Intern"
         companyName="TikTok"
         location="Seattle, Washington, USA"
@@ -37,11 +38,11 @@ const Experiences = () => {
         imageSrc={fractal}
         imageAlt="fractal 2022"
         description={["",
-          "• Market Mix Modeling: Developed a Hierarchical Bayesian Regression (HBR) model to analyze KPIs and improve organic search ranks. Collaborated on budget optimization by leveraging insights from the MMM model.",
-          "• Price and Promotion Elasticity: Built a predictive sales model using stepwise linear regression and gradient descent. Developed a price simulator in Power BI to visualize price elasticities.",
-          "• Duplicate Invoice Detection: Created NLP-based fuzzy matching and semantic analysis to detect duplicate invoices, using classifiers and oversampling techniques for improved accuracy.",
-          "• Time Series Forecasting: Developed ARIMA and VAR models to forecast tax compliance, deploying on Databricks and integrating with SQL for real-time use.",
-          "• ML Pipeline for Explainable AI: Developed an Azure-based pipeline using SHAP/LIME for interpretability of black box models, deploying it in Python and PySpark."
+          "• Market Mix Modeling: Developed of a Hierarchical Bayesian Regression model to decode contribution of KPIs, ROI of sales drivers and provide insights for improving Organic Search Ranks on Amazon e-commerce.",
+          "• Generative AI: Developed a POC on the application of Computer Vision in cosmetic surgeries using Generative Adversarial Network (GAN) with landmark detection for face reenactment and post-operative face estimation.",
+          "• Time Series Forecasting: Developed time-series forecasting models utilizing ARIMA & VAR and integrated with a postgreSQL database to predict different components of P&L, which resulted in tax reduction.",
+          "• Explainable AI: Developed, optimized, and deployed an Azure-based ML pipeline on surrogate models (SHAP/LIME) using Synapse- ML on Python and PySpark scripts to obtain an interpretable and visual explanation of black box models.",
+          "• Clinical Trail Pipeline: Developed a POC of a clinical trial pipeline utilizing scispaCy to assess patient attributes for optimal patient selection and cluster formation. Created synthetic clinical data and used CNN for medical image analysis."
         ]}
         positionName="Data Scientist"
         companyName="fractal"
@@ -49,7 +50,7 @@ const Experiences = () => {
         backgroundColor="#F8F8FA"
         dateOfExperience="June 2022 - September 2022"
       />
-      <Experience
+      {/* <Experience
         imageSrc={VCE}
         imageAlt="Vardhan Consulting Engineers"
         description={[
@@ -88,7 +89,7 @@ const Experiences = () => {
         location="IIT Roorkee, India"
         backgroundColor="#FFFFFF"
         dateOfExperience="May 2019 - July 2019"
-      />
+      /> */}
     </>
   );
 };

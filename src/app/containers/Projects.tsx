@@ -8,16 +8,32 @@ import FAOutlets from "../../assets/FAOutlets.png";
 import CycleScan from "../../assets/CycleScan.png";
 import Repeat from "../../assets/repeat.png";
 import Ship from "../../assets/ship.png";
+import azn from "../../assets/azn.png";
+import spn from "../../assets/spn.png";
 import Project from "../components/Project";
 
 const Projects = () => {
   return (
     <>
       <Project
+        imageSrc={spn}
+        imageAlt="Sage"
+        projectName="Personalized E-commerce Recommendation"
+        projectDescription="A retrieval based recommendation system with two tower architecture."
+        projectLink="https://github.com/reyasadhu/personalized_ecommerce_recommendation"
+      />
+      <Project
+        imageSrc={azn}
+        imageAlt="Sage"
+        projectName="Review Rating prediction"
+        projectDescription="Modified neural matrix factorization model for Amazon Products combining item metadata, review texts, and user-item interactions."
+        projectLink="https://github.com/reyasadhu/Review_rating_prediction"
+      />
+      <Project
         imageSrc={Sage}
         imageAlt="Sage"
         projectName="Multitask Learning BERT"
-        projectDescription="Training BERT based models using pre-training and fine-tuning for three downstream tasks."
+        projectDescription="A multitask model developed by fine-tuning pre-trained BERT on three downstream tasks."
         projectLink="https://github.com/reyasadhu/Multi-task-Learning-BERT"
       />
       <Project
